@@ -1,0 +1,8 @@
+[submodule "vendor/design/dsds"]
+	path = vendor/design/dsds
+	url = https://github.com/somerandomdude/design-system-documentation-schema.git
+	branch = main
+[submodule "vendor/design/dtcg"]
+	path = vendor/design/dtcg
+	url = https://github.com/design-tokens/community-group.git
+	branch = main
