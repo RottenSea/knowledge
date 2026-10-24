@@ -15,3 +15,24 @@
 	path = vendor/a11y/apg
 	url = https://github.com/w3c/aria-practices.git
 	branch = main
+[submodule "vendor/conventions/github-docs"]
+	path = vendor/conventions/github-docs
+	url = https://github.com/github/docs.git
+	branch = main
+	shallow = true
+[submodule "vendor/conventions/keep-a-changelog"]
+	path = vendor/conventions/keep-a-changelog
+	url = https://github.com/olivierlacan/keep-a-changelog.git
+	branch = main
+[submodule "vendor/conventions/semantic-versioning-specification"]
+	path = vendor/conventions/semantic-versioning-specification
+	url = https://github.com/semver/semver.git
+	branch = master
+[submodule "vendor/conventions/conventional-commits"]
+	path = vendor/conventions/conventional-commits
+	url = https://github.com/conventional-commits/conventionalcommits.org.git
+	branch = master
+[submodule "vendor/conventions/standard-readme"]
+	path = vendor/conventions/standard-readme
+	url = https://github.com/RichardLitt/standard-readme.git
+	branch = main
