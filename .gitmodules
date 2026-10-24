@@ -6,3 +6,12 @@
 	path = vendor/design/dtcg
 	url = https://github.com/design-tokens/community-group.git
 	branch = main
+[submodule "vendor/a11y/wcag"]
+	path = vendor/a11y/wcag
+	url = https://github.com/w3c/wcag.git
+	branch = main
+	shallow = true
+[submodule "vendor/a11y/apg"]
+	path = vendor/a11y/apg
+	url = https://github.com/w3c/aria-practices.git
+	branch = main

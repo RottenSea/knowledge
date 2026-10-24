@@ -18,6 +18,13 @@ In an existing clone, run `git submodule update --init` to fetch the submodules.
 
 ## Sources
 
+### Accessibility
+
+| Name | Path | Upstream | What it covers |
+| --- | --- | --- | --- |
+| Web Content Accessibility Guidelines (WCAG) | `vendor/a11y/wcag` | [repo](https://github.com/w3c/wcag) · [WCAG 2.2](https://www.w3.org/TR/WCAG22/) | The W3C Recommendation for accessible web content. It is a shallow clone, so only the latest commit is fetched. |
+| ARIA Authoring Practices Guide (APG) | `vendor/a11y/apg` | [repo](https://github.com/w3c/aria-practices) · [site](https://www.w3.org/WAI/ARIA/apg/) | Keyboard and ARIA patterns for common widgets such as dialogs, tabs and menus, each with a working example. |
+
 ### Design systems
 
 | Name | Path | Upstream | What it covers |
