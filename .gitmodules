@@ -36,3 +36,13 @@
 	path = vendor/conventions/standard-readme
 	url = https://github.com/RichardLitt/standard-readme.git
 	branch = main
+[submodule "vendor/tooling/vitepress"]
+	path = vendor/tooling/vitepress
+	url = https://github.com/vuejs/vitepress.git
+	branch = v1
+	shallow = true
+[submodule "vendor/tooling/vite"]
+	path = vendor/tooling/vite
+	url = https://github.com/vitejs/vite.git
+	branch = v5
+	shallow = true

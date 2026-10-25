@@ -43,3 +43,12 @@ GitHub Docs has paths longer than 260 characters. On Windows, run `git config --
 | --- | --- | --- | --- |
 | Design System Doc Spec (DSDS) | `vendor/design/dsds` | [repo](https://github.com/somerandomdude/design-system-documentation-schema) · [site](https://designsystemdocspec.org/) | A draft schema for writing design system documentation as structured YAML, covering components, tokens, themes and guidelines. |
 | Design Tokens Format (DTCG) | `vendor/design/dtcg` | [repo](https://github.com/design-tokens/community-group) · [2025.10](https://www.designtokens.org/TR/2025.10/) | The token file format from the W3C Design Tokens Community Group. 2025.10 is its first stable version. |
+
+### Tooling
+
+These track the maintenance branch for the major version the website uses, so `git submodule update --remote` stays within that version. When the website moves to a new major version, change `branch` in `.gitmodules`. Both are shallow clones.
+
+| Name | Path | Upstream | What it covers |
+| --- | --- | --- | --- |
+| Vite | `vendor/tooling/vite` | [repo](https://github.com/vitejs/vite) · [v5 site](https://v5.vite.dev/) | The build tool under VitePress, on the `v5` branch that VitePress 1.x uses. The docs are in `docs/`. |
+| VitePress | `vendor/tooling/vitepress` | [repo](https://github.com/vuejs/vitepress) · [site](https://vitepress.dev/) | The static site generator for the personal website, on the `v1` branch. The English docs are in `docs/en/`. |
